@@ -5,7 +5,7 @@
 	<title>Game</title>
 </head>
 <body>
-
+	<div>
 	<form method="GET" action="wyniki.php">
 		"Proszę wybrać" <br>
 			  <input type="radio" name="me" value="Rock" checked> Rock<br>
@@ -13,5 +13,6 @@
 			  <input type="radio" name="me" value="Scrissors"> Scrissors<br><br>
 			  <input type="submit" name="button" value="Submit">
 	</form>
+	</div>
 </body>
 </html>
