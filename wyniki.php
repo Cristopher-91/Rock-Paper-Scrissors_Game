@@ -1,15 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class="container">
 <?php
 	
 	$games = array(0=>"Rock", 1=>"Paper", 2=>"Scrissors");
 	
-		/*foreach($games as $game){
-			echo "Wylosowano " . $game . "<br>\n";
-		}
-		*/
 		$size = sizeof($games) - 1 ;
-		$choice = (rand(0,$size));
-		//echo $games[$choice];
-		
+		$choice = (rand(0,$size));		
 		
 		$me = $_GET['me'];
 		
@@ -68,5 +72,8 @@
 		}
 		
 ?>
-<br>
+<br><br>
 <a href="index.php">Zagraj jeszcze raz</a>;
+</div>
+</body>
+</html>
